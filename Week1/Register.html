@@ -16,15 +16,15 @@
     <div class="login-page">
         <h1>Register</h1>
         <div class="form">
-          <form class="register-form" action="Login.html">
-            <input type="text" placeholder="name"/>
-            <input type="password" placeholder="password"/>
-            <input type="text" placeholder="email address"/>
+          <form name="myform" class="register-form" action="Login.html" onsubmit="return validateform()">
+            <input name="name" type="text" placeholder="name"/>
+            <input name="password" type="password" placeholder="password"/>
+            <input name="email" type="text" placeholder="email address"/>
             <button>create</button>
             <p class="message">Already registered? <a href="Login.html">Sign In</a></p>
           </form>
         </div>
       </div>
-      <script src="login.js"></script>
+      <script type="text/javascript" src="register.js"></script>
 </body>
 </html>

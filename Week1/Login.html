@@ -15,14 +15,14 @@
     <div class="login-page">
         <h1>Login</h1>
         <div class="form">
-          <form class="login-form" action="Catalog.html">
-            <input type="text" placeholder="username"/>
-            <input type="password" placeholder="password"/>
+          <form class="login-form" action="Catalog.html" name="myform" onsubmit="return validateform()">
+            <input name="name" type="text" placeholder="username"/>
+            <input name="password" type="password" placeholder="password"/>
             <button>login</button>
             <p class="message">Not registered? <a href="Register.html">Create an account</a></p>
           </form>
         </div>
       </div>
-      <script src="login.js"></script>
+      <script type="text/javascript" src="login.js"></script>
 </body>
 </html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content=
+"HTML Tidy for HTML5 for Linux version 5.2.0" />
+<meta charset="UTF-8" />
+<meta name="viewport" content=
+"width=device-width, initial-scale=1.0" />
+<title>Evergreeen | Buy Plants</title>
+<link rel="stylesheet" href="login.css" />
+</head>
+<body>
+<h1 style="text-align: center;">Evergreeen</h1>
+<h2>List of available trees:-</h2>
+<div class="gallery"><img src="images/1.jpg" style=
+"width: 250px; height: 250px;" /> <img src="images/1.jpg" style=
+"width: 250px; height: 250px;" /> <img src="images/1.jpg" style=
+"width: 250px; height: 250px;" /> <img src="images/1.jpg" style=
+"width: 250px; height: 250px;" /> <img src="images/1.jpg" style=
+"width: 250px; height: 250px;" /> <img src="images/1.jpg" style=
+"width: 250px; height: 250px;" /></div>
+<button class="but" onclick=
+"document.location='Shopping.html'">Click here to proceed</button>
+</body>
+</html>
